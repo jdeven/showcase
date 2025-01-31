@@ -6,6 +6,7 @@
   "dependencies": {
     "@fontsource/spartan": "^4.5.8",
     "@fontsource/spectral": "^4.5.11",
+    "gh-pages": "^6.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
@@ -14,7 +15,7 @@
     "web-vitals": "^3.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
